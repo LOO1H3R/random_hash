@@ -8,8 +8,8 @@ install-amazon-linux:
 	pip install --upgrade pip &&\
 	pip install -r amazon-linux.txt
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C main.py
 format:
 	black *.py
 test:
-	python -m pytest -vv  test_hello.py
+	python -m pytest -vv  test.py

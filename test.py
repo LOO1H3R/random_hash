@@ -1,4 +1,4 @@
-from main import find_valid_hash
+from main import find_hash
 
 def test_hash():
-    assert find_valid_hash
+    assert find_hash
